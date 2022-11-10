@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/my_reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      $(function () {
+        $("aside, .banner_btn .up, .banner_btn .down, .banner_btn").addClass(
+          "on"
+        );
+        setTimeout(function () {
+          $(
+            "aside, .banner_btn .up, .banner_btn .down,.banner_btn"
+          ).removeClass("on");
+        }, 5000);
+        $(".banner_btn").click(function () {
+          $(
+            "aside, .banner_btn .up, .banner_btn .down, .banner_btn"
+          ).toggleClass("on");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header_nav mw">
+        <a class="logo" href="#"><img src="./img/logo_new.png" alt="로고" /></a>
+        <nav class="gnb">
+          <ul>
+            <li>
+              <a href="">메인</a>
+              <ul>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">메인</a>
+              <ul>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">메인</a>
+              <ul>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">메인</a>
+              <ul>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">메인</a>
+              <ul>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">메인</a>
+              <ul>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+                <li><a href="#">서브 </a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="#"><i class="fa-regular fa-user"></i></a>
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="main_pg mw">
+      <button class="banner_btn">
+        <i class="fa-solid fa-sort-down down"></i>
+        <i class="fa-solid fa-sort-up up"></i>
+      </button>
+      <aside>
+        <div class="top_banner">
+          <a href="#">
+            <img src="./img/left_banner_top.png" alt="이미지" />
+          </a>
+        </div>
+        <!-- <div><input type="text" /> <button>검색</button></div> -->
+
+        <div class="event_title">
+          <img src="./img/event_text.png" alt="텍스트" />
+        </div>
+        <section class="event_banner">
+          <div class="swiper mySwiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="./img/event (1).jpg" alt="" />
+              </li>
+              <li class="swiper-slide">
+                <img src="./img/event (2).jpg" alt="" />
+              </li>
+              <li class="swiper-slide">
+                <img src="./img/event (3).jpg" alt="" />
+              </li>
+              <li class="swiper-slide">
+                <img src="./img/event (4).jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="swiper-button-next next1"></div>
+          <div class="swiper-button-prev prev1"></div>
+        </section>
+      </aside>
+      <div class="swiper mySwiper">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <img src="./img/main_banner.jpg" alt="" />
+          </li>
+          <li class="swiper-slide"><img src="#" alt="" /></li>
+          <li class="swiper-slide"><img src="#" alt="" /></li>
+        </ul>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div>
+        <p>why</p>
+        <p>띠아모에는 이유가 있습니다</p>
+      </div>
+      <div>
+        <div>
+          <img src="#" alt="" />
+          <p>홈서비스형 (6평 기준)</p>
+          <p>
+            고스트키친. 홀 없이 홈서비스 딜리버리만을 전문으로 하는 형태입니다
+          </p>
+        </div>
+        <div>
+          <img src="#" alt="" />
+          <p>테이트아웃형 (8평 기준)</p>
+          <p>
+            테이크아웃이 많은 지역에 유리한 미니카페형으로 작지만 알찬구성으로
+            더욱가깝게 만나보실 수 있습니다
+          </p>
+        </div>
+        <div>
+          <img src="#" alt="" />
+          <p>홈서비스형 (6평 기준)</p>
+          <p>
+            고스트키친. 홀 없이 홈서비스 딜리버리만을 전문으로 하는 형태입니다
+          </p>
+        </div>
+      </div>
+      <div>
+        <p>where</p>
+        <p>띠아모에는 선택이 있습니다</p>
+      </div>
+    </section>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+
+        navigation: {
+          nextEl: ".next1",
+          prevEl: ".prev1",
+        },
+      });
+    </script>
+  </body>
+</html>
