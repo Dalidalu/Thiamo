@@ -42,7 +42,7 @@
   </head>
   <body>
     <header>
-      <div class="header_nav mw">
+      <div class="header_nav mw2">
         <a class="logo" href="#"><img src="./img/logo_new.png" alt="로고" /></a>
         <nav class="gnb">
           <ul>
@@ -140,7 +140,7 @@
           <img src="./img/event_text.png" alt="텍스트" />
         </div>
         <section class="event_banner">
-          <div class="swiper mySwiper">
+          <div class="swiper asideSwiper">
             <ul class="swiper-wrapper">
               <li class="swiper-slide">
                 <img src="./img/event (1).jpg" alt="" />
@@ -160,43 +160,54 @@
           <div class="swiper-button-prev prev1"></div>
         </section>
       </aside>
-      <div class="swiper mySwiper">
+      <div class="mainImg mw">
+        <p>젤라또와 커피의 깔끔한 만남</p>
+        <p>매장에서 직접 만드는 고급 수제 아이스크림</p>
+        <p>국내 디저트카페 장수브랜드 카페띠아모</p>
+      </div>
+      <!-- <div class="swiper mainSwiper">
         <ul class="swiper-wrapper">
           <li class="swiper-slide">
-            <img src="./img/main_banner.jpg" alt="" />
+            <img src="" alt="" />
           </li>
           <li class="swiper-slide"><img src="#" alt="" /></li>
           <li class="swiper-slide"><img src="#" alt="" /></li>
         </ul>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-      </div>
-      <div>
-        <p>why</p>
-        <p>띠아모에는 이유가 있습니다</p>
-      </div>
-      <div>
-        <div>
-          <img src="#" alt="" />
-          <p>홈서비스형 (6평 기준)</p>
-          <p>
-            고스트키친. 홀 없이 홈서비스 딜리버리만을 전문으로 하는 형태입니다
-          </p>
-        </div>
-        <div>
-          <img src="#" alt="" />
-          <p>테이트아웃형 (8평 기준)</p>
-          <p>
-            테이크아웃이 많은 지역에 유리한 미니카페형으로 작지만 알찬구성으로
-            더욱가깝게 만나보실 수 있습니다
-          </p>
-        </div>
-        <div>
-          <img src="#" alt="" />
-          <p>홈서비스형 (6평 기준)</p>
-          <p>
-            고스트키친. 홀 없이 홈서비스 딜리버리만을 전문으로 하는 형태입니다
-          </p>
+      </div> -->
+      <div class="sec1">
+        <div class="sec1_con">
+          <div class="sec1_slide1">
+            <div><img src="./img/sec1_img.jpg" alt="" /></div>
+            <div>
+              <p>홈서비스형 (6평 기준)</p>
+              <p>
+                고스트키친. 홀 없이 홈서비스 딜리버리만을 전문으로 하는
+                형태입니다
+              </p>
+            </div>
+          </div>
+          <div class="sec1_slide2">
+            <div><img src="./img/sec1_img2.jpg" alt="" /></div>
+            <div>
+              <p>테이트아웃형 (8평 기준)</p>
+              <p>
+                테이크아웃이 많은 지역에 유리한 미니카페형으로 작지만
+                알찬구성으로 더욱가깝게 만나보실 수 있습니다
+              </p>
+            </div>
+          </div>
+          <div class="sec1_slide3">
+            <div><img src="./img/sec1_img3.jpg" alt="" /></div>
+            <div>
+              <p>홈서비스형 (6평 기준)</p>
+              <p>
+                고스트키친. 홀 없이 홈서비스 딜리버리만을 전문으로 하는
+                형태입니다
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div>
@@ -205,7 +216,7 @@
       </div>
     </section>
     <script>
-      var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper(".asideSwiper", {
         loop: true,
 
         navigation: {
